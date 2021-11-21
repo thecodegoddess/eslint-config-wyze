@@ -1,0 +1,36 @@
+
+> eslint-config-wyze-update@1.0.0 pretest
+> npm run lint
+
+
+> eslint-config-wyze-update@1.0.0 prelint
+> npm link && npm link eslint-config-wyze-update
+
+
+up to date, audited 3 packages in 561ms
+
+found 0 vulnerabilities
+
+up to date, audited 963 packages in 985ms
+
+208 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+
+> eslint-config-wyze-update@1.0.0 lint
+> eslint rules *.js
+
+
+/Users/ambermadigan/Documents/eslint-config-wyze/babel.config.js
+  0:0  warning  File ignored because of a matching ignore pattern. Use "--no-ignore" to override
+
+/Users/ambermadigan/Documents/eslint-config-wyze/jest.config.js
+  0:0  warning  File ignored because of a matching ignore pattern. Use "--no-ignore" to override
+
+✖ 2 problems (0 errors, 2 warnings)
+
+
+> eslint-config-wyze-update@1.0.0 test
+> jest
+

@@ -1,7 +1,7 @@
 module.exports = {
   extends: [
     'plugin:flowtype/recommended',
-    'wyze/rules/flow',
+    'wyze-update/rules/flow',
   ],
   parser: 'babel-eslint',
   plugins: [
