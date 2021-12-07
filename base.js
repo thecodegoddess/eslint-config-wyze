@@ -1,12 +1,12 @@
 module.exports = {
   extends: [
     'airbnb/base',
-    'plugin:wyze/recommended',
-    'wyze/rules/best-practices',
-    'wyze/rules/es6',
-    'wyze/rules/import',
-    'wyze/rules/legacy',
-    'wyze/rules/style',
+    'plugin:wyze-update/recommended',
+    'wyze-update/rules/best-practices',
+    'wyze-update/rules/es6',
+    'wyze-update/rules/import',
+    'wyze-update/rules/legacy',
+    'wyze-update/rules/style',
   ],
   parserOptions: {
     ecmaFeatures: {
@@ -18,6 +18,6 @@ module.exports = {
   plugins: [
     'eslint-comments',
     'import',
-    'wyze',
+    'wyze-update',
   ],
 }

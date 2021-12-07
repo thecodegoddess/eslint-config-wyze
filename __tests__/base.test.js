@@ -4,12 +4,12 @@ describe('base config', () => {
   it('extends files', () => {
     const expected = [
       'airbnb/base',
-      'plugin:wyze/recommended',
-      'wyze/rules/best-practices',
-      'wyze/rules/es6',
-      'wyze/rules/import',
-      'wyze/rules/legacy',
-      'wyze/rules/style',
+      'plugin:wyze-update/recommended',
+      'wyze-update/rules/best-practices',
+      'wyze-update/rules/es6',
+      'wyze-update/rules/import',
+      'wyze-update/rules/legacy',
+      'wyze-update/rules/style',
     ]
 
     expect(base.extends).toEqual(expected)
@@ -19,7 +19,7 @@ describe('base config', () => {
     const expected = [
       'eslint-comments',
       'import',
-      'wyze',
+      'wyze-update',
     ]
 
     expect(base.plugins).toEqual(expected)

@@ -1,9 +1,9 @@
 {
-  "name": "eslint-config-wyze",
-  "version": "5.0.0",
+  "name": "eslint-config-wyze-update",
+  "version": "1.0.0",
   "description": "My personal ESLint config.",
   "license": "MIT",
-  "repository": "wyze/eslint-config-wyze",
+  "repository": "",
   "author": {
     "name": "Neil Kistner",
     "email": "neil.kistner@gmail.com",
@@ -12,8 +12,9 @@
   "main": "index.js",
   "scripts": {
     "changelog": "changelog-maker --filter-release",
+    "fix": "eslint rules *.js --fix",
     "lint": "eslint rules *.js",
-    "prelint": "npm link && npm link eslint-config-wyze",
+    "prelint": "npm link && npm link eslint-config-wyze-update",
     "pretest": "npm run lint",
     "test": "jest",
     "version": "node scripts/version.js"
@@ -45,7 +46,7 @@
       "eslint-config-airbnb": "^14.1.0",
       "eslint-plugin-eslint-comments": "^1.0.0",
       "eslint-plugin-import": "^2.2.0",
-      "eslint-plugin-wyze": "^3.1.0"
+      "eslint-plugin-wyze-update": "github:thecodegoddess/eslint-plugin-wyze#f8e7baa35c6d8be5035e448fff732053c3e69114"
     },
     "reactPeers": {
       "eslint": "^3.18.0",
@@ -54,7 +55,7 @@
       "eslint-plugin-import": "^2.2.0",
       "eslint-plugin-jsx-a11y": "^4.0.0",
       "eslint-plugin-react": "^6.10.0",
-      "eslint-plugin-wyze": "^3.1.0"
+      "eslint-plugin-wyze-update": "github:thecodegoddess/eslint-plugin-wyze#f8e7baa35c6d8be5035e448fff732053c3e69114"
     },
     "flowPeers": {
       "babel-eslint": "^7.1.0",
@@ -63,31 +64,31 @@
     }
   },
   "peerDependencies": {
-    "babel-eslint": "^7.1.0",
-    "eslint": "^3.18.0",
-    "eslint-config-airbnb": "^14.1.0",
-    "eslint-plugin-eslint-comments": "^1.0.0",
-    "eslint-plugin-flowtype": "^2.30.0",
-    "eslint-plugin-import": "^2.2.0",
-    "eslint-plugin-jsx-a11y": "^4.0.0",
-    "eslint-plugin-react": "^6.10.0",
-    "eslint-plugin-wyze": "^3.1.0"
+    "babel-eslint": "^10.1.0",
+    "eslint": "^8.3.0",
+    "eslint-config-airbnb": "^19.0.0",
+    "eslint-plugin-eslint-comments": "^3.2.0",
+    "eslint-plugin-flowtype": "^8.0.3",
+    "eslint-plugin-import": "^2.25.3",
+    "eslint-plugin-jsx-a11y": "^6.5.1",
+    "eslint-plugin-react": "^7.27.1"
   },
   "devDependencies": {
-    "babel-eslint": "^7.2.1",
-    "babel-jest": "^19.0.0",
+    "@babel/preset-env": "^7.16.4",
+    "babel-eslint": "^10.1.0",
+    "babel-jest": "^27.3.1",
     "babel-plugin-transform-inline-imports-commonjs": "^1.2.0",
-    "changelog-maker": "^2.2.5",
-    "eslint": "^3.19.0",
-    "eslint-config-airbnb": "^14.1.0",
-    "eslint-plugin-eslint-comments": "^1.0.0",
-    "eslint-plugin-flowtype": "^2.30.4",
-    "eslint-plugin-import": "^2.2.0",
-    "eslint-plugin-jsx-a11y": "^4.0.0",
-    "eslint-plugin-react": "^6.10.3",
-    "eslint-plugin-wyze": "^3.2.0",
-    "execa": "^0.6.3",
-    "jest": "^19.0.2",
-    "read-pkg": "^2.0.0"
+    "changelog-maker": "^2.7.3",
+    "eslint": "^8.3.0",
+    "eslint-config-airbnb": "^19.0.0",
+    "eslint-plugin-eslint-comments": "^3.2.0",
+    "eslint-plugin-flowtype": "^8.0.3",
+    "eslint-plugin-import": "^2.25.3",
+    "eslint-plugin-jsx-a11y": "^6.5.1",
+    "eslint-plugin-react": "^7.27.1",
+    "eslint-plugin-wyze-update": "github:thecodegoddess/eslint-plugin-wyze#f8e7baa35c6d8be5035e448fff732053c3e69114",
+    "execa": "^6.0.0",
+    "jest": "^27.3.1",
+    "read-pkg": "^7.0.0"
   }
 }

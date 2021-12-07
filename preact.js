@@ -1,7 +1,7 @@
 module.exports = {
   extends: [
-    'wyze',
-    'wyze/rules/preact',
+    'wyze-update',
+    'wyze-update/rules/preact',
   ],
   settings: {
     react: {

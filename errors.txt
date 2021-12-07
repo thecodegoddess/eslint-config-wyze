@@ -1,0 +1,86 @@
+
+> eslint-config-wyze-update@1.0.0 pretest
+> npm run lint
+
+
+> eslint-config-wyze-update@1.0.0 prelint
+> npm link && npm link eslint-config-wyze-update
+
+
+up to date, audited 3 packages in 530ms
+
+found 0 vulnerabilities
+
+up to date, audited 882 packages in 835ms
+
+207 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+
+> eslint-config-wyze-update@1.0.0 lint
+> eslint rules *.js
+
+
+/Users/ambermadigan/Documents/eslint-config-wyze/babel.config.js
+  2:12  error  A space is required after '['   array-bracket-spacing
+  2:13  error  A space is required after '['   array-bracket-spacing
+  2:35  error  A space is required after '{'   object-curly-spacing
+  2:45  error  A space is required after '{'   object-curly-spacing
+  2:61  error  A space is required before '}'  object-curly-spacing
+  2:62  error  A space is required before '}'  object-curly-spacing
+  2:63  error  A space is required before ']'  array-bracket-spacing
+  2:64  error  A space is required before ']'  array-bracket-spacing
+  3:2   error  Extra semicolon                 semi
+
+/Users/ambermadigan/Documents/eslint-config-wyze/rules/__tests__/best-practices.test.js
+  5:5   error    Expected blank line after variable declarations  newline-after-var
+  5:36  error    Extra semicolon                                  semi
+  6:5   warning  Unexpected console statement                     no-console
+  6:22  error    Extra semicolon                                  semi
+  7:32  error    Unexpected newline after '('                     function-paren-newline
+  9:5   error    Unexpected newline before ')'                    function-paren-newline
+
+/Users/ambermadigan/Documents/eslint-config-wyze/rules/__tests__/es6.test.js
+  6:32  error  Unexpected newline after '('   function-paren-newline
+  8:5   error  Unexpected newline before ')'  function-paren-newline
+
+/Users/ambermadigan/Documents/eslint-config-wyze/rules/__tests__/eslint-comments.test.js
+  6:32  error  Unexpected newline after '('   function-paren-newline
+  8:5   error  Unexpected newline before ')'  function-paren-newline
+
+/Users/ambermadigan/Documents/eslint-config-wyze/rules/__tests__/flow.test.js
+  6:32  error  Unexpected newline after '('   function-paren-newline
+  8:5   error  Unexpected newline before ')'  function-paren-newline
+
+/Users/ambermadigan/Documents/eslint-config-wyze/rules/__tests__/import.test.js
+  6:32  error  Unexpected newline after '('   function-paren-newline
+  8:5   error  Unexpected newline before ')'  function-paren-newline
+
+/Users/ambermadigan/Documents/eslint-config-wyze/rules/__tests__/legacy.test.js
+  6:32  error  Unexpected newline after '('   function-paren-newline
+  8:5   error  Unexpected newline before ')'  function-paren-newline
+
+/Users/ambermadigan/Documents/eslint-config-wyze/rules/__tests__/preact.test.js
+  6:32  error  Unexpected newline after '('   function-paren-newline
+  8:5   error  Unexpected newline before ')'  function-paren-newline
+
+/Users/ambermadigan/Documents/eslint-config-wyze/rules/__tests__/react-a11y.test.js
+  6:32  error  Unexpected newline after '('   function-paren-newline
+  8:5   error  Unexpected newline before ')'  function-paren-newline
+
+/Users/ambermadigan/Documents/eslint-config-wyze/rules/__tests__/react.test.js
+  6:32  error  Unexpected newline after '('   function-paren-newline
+  8:5   error  Unexpected newline before ')'  function-paren-newline
+
+/Users/ambermadigan/Documents/eslint-config-wyze/rules/__tests__/style.test.js
+  6:32  error  Unexpected newline after '('   function-paren-newline
+  8:5   error  Unexpected newline before ')'  function-paren-newline
+
+/Users/ambermadigan/Documents/eslint-config-wyze/rules/__tests__/variables.test.js
+  6:32  error  Unexpected newline after '('   function-paren-newline
+  8:5   error  Unexpected newline before ')'  function-paren-newline
+
+✖ 35 problems (34 errors, 1 warning)
+  34 errors and 0 warnings potentially fixable with the `--fix` option.
+

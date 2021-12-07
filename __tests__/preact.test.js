@@ -3,8 +3,8 @@ import preact from '../preact'
 describe('preact config', () => {
   it('extends files', () => {
     const expected = [
-      'wyze',
-      'wyze/rules/preact',
+      'wyze-update',
+      'wyze-update/rules/preact',
     ]
 
     expect(preact.extends).toEqual(expected)
